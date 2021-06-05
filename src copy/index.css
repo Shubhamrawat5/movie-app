@@ -58,19 +58,14 @@ section {
 }
 .tab {
   cursor: pointer;
-  background: #f9f7fb;
-  padding: 5px 8px;
-  margin-right: 9px;
-  opacity: 0.8;
-}
-.active {
   background-color: white;
-  opacity: 1;
+  padding: 5px 8px;
+  margin: 0 5px;
 }
 
 /* MOVIE CARD */
 .movie-card:nth-child(1) {
-  margin-top: 2px;
+  margin-top: 4px;
 }
 .movie-card {
   background-color: white;
@@ -110,20 +105,15 @@ section {
   bottom: 6px;
   width: 93%;
 }
-.movie-btn {
+#favourite-btn {
   cursor: pointer;
+  background-color: #2a3e56c7;
   font-size: 15px;
   color: white;
   font-family: inherit;
   border-width: 1px;
   border-radius: 4px;
   outline: none;
-}
-.fav {
-  background-color: #260baac7;
-}
-.unfav {
-  background-color: #ba3326;
 }
 
 @media (max-width: 550px) {
